@@ -34,7 +34,7 @@ jobs:
         shell: pwsh
         run: uv pip install --system -e . wheel "setuptools==58.1.0"
 
-      - name: Build ag2core
+      - name: Build 
         shell: pwsh
         run: |
           pip install build
